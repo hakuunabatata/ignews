@@ -9,9 +9,21 @@
   --gray-100: #e1e1e6;
   --gray-300: #a8a8b3;
   --gray-900: #121214;
-
+  --gray-800: #29292e;
   --cyan-500: #61bafb;
   --yellow-500: #eba417;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
 }
 
 body {
